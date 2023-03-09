@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        Selecting GENDER as input and displaying it on the handler page
+    </head>
+    <body>
+        <form method = "GET" action="4a.html" enctype="">
+        <fieldset>
+            <legend>GENDER</legend>
+                <input type="radio" name="gender" value=""> Male
+                <input type="radio" name="gender" value=""> Female
+                <input type="radio" name="gender" value=""> Other
+                <br>
+                <hr>
+        <input type="submit" name="" value="Submit">
+        </fieldset>
+        </form>
+    </body>
+</html>
+<!DOCTYPE html>
+<html>
+    <head>
+        Selecting GENDER as input and displaying it on the current page
+    </head>
+    <body>
+        <form method = "GET" action="4b.php" enctype="">
+        <fieldset>
+            <legend>GENDER</legend>
+                <input type="radio" name="gender" value=""> Male
+                <input type="radio" name="gender" value=""> Female
+                <input type="radio" name="gender" value=""> Other
+                <br>
+                <hr>
+        <input type="submit" name="" value="Submit">
+        </fieldset>
+        </form>
+        <?php
+        $gender = $_GET['gender'];
+        echo $gender;
+        ?>
+    </body>
+</html>
+<!DOCTYPE html>
+<html>
+    <head>
+        Selecting DEGREES as input and displaying it on the handler page
+    </head>
+    <body>
+        <form method = "GET" action="5a.html" enctype="">
+        <fieldset>
+            <legend>GENDER</legend>
+                <input type="checkbox" name="degrees" value=""> SSC
+                <input type="checkbox" name="degrees" value=""> HSC
+                <input type="checkbox" name="degrees" value=""> BSc
+                <input type="checkbox" name="degrees" value=""> MSc
+                <br>
+                <hr>
+        <input type="submit" name="" value="Submit">
+        </fieldset>
+        </form>
+    </body>
+</html>
+<!DOCTYPE html>
+<html>
+    <head>
+        Selecting DEGREES as input and displaying it on the current page
+    </head>
+    <body>
+        <form method = "GET" action="5a.html" enctype="">
+        <fieldset>
+            <legend>GENDER</legend>
+                <input type="checkbox" name="degrees" value=""> SSC
+                <input type="checkbox" name="degrees" value=""> HSC
+                <input type="checkbox" name="degrees" value=""> BSc
+                <input type="checkbox" name="degrees" value=""> MSc
+                <br>
+                <hr>
+        <input type="submit" name="" value="Submit">
+        </fieldset>
+        </form>
+        <?php
+        $degrees = $_GET['degrees'];
+        echo $degrees;
+        ?>
+    </body>
+</html>
+<!DOCTYPE html>
+<html>
+    <head>
+        Selecting Blood Group and displaying it on handler page
+    </head>
+    <body>
+        <form method="GET" actions="6a.html" enctype="">
+        <fieldset>
+            <legend>BLOOD GROUP</legend>
+            <select option="">
+            <option value = "A+">A+</option>
+            <option value = "B+">B+</option>
+            <option value = "O+">O+</option>
+            <option value = "AB+">AB+</option>
+            <option value = "A-">A-</option>
+            <option value = "B-">B-</option>
+            <option value = "O-">O-</option>
+            <option value = "AB-">AB-</option>
+            </select>
+            <br><hr>
+            <input type="submit" name="" value="Submit">
+        </fieldset>
+        </form>
+    </body>
+</html>
+<!DOCTYPE html>
+<html>
+    <head>
+        Selecting Blood Group and displaying it on handler page
+    </head>
+    <body>
+        <form method="GET" actions="6a.html" enctype="">
+        <fieldset>
+            <legend>BLOOD GROUP</legend>
+            <select option="">
+            <option value = "A+">A+</option>
+            <option value = "B+">B+</option>
+            <option value = "O+">O+</option>
+            <option value = "AB+">AB+</option>
+            <option value = "A-">A-</option>
+            <option value = "B-">B-</option>
+            <option value = "O-">O-</option>
+            <option value = "AB-">AB-</option>
+            </select>
+            <br><hr>
+            <input type="submit" name="" value="Submit">
+        </fieldset>
+        </form>
+        <?php
+        $bloodgroup = $_GET['bloodgroup'];
+        echo $bloodgroup;
+        ?>
+    </body>
+</html>
+<!DOCTYPE html>
+<html>
+    <head>
+        Taking NAME as input and displaying it on handler page
+    </head>
+    <body>
+        <form  method = "GET" action = "1a.html" enctype="">
+            <fieldset>
+                <legend>NAME</legend>
+                <input type = "text" name ="name" value=""><br>
+                <hr>
+                <input type = "submit" name = "" value="Submit">
+            </fieldset>
+        </form>
+    </body>
+</html>
+<!DOCTYPE html>
+<html>
+    <head>Taking name as input and displaying it on the current page</head>
+    <body>
+        <form method = "GET" action = "1b.php" enctype="">
+        <fieldset>
+            <legend>NAME</legend>
+            <input type = "text" name ="name" value=""><br>
+            <hr>
+            <input type = "submit" name = "" value="Submit">
+        </fieldset>
+        </form>
+    <?php
+        $name = $_GET['name'];
+        echo $name;
+    ?>
+    </body>
+</html>
+<!DOCTYPE html>
+<html>
+    <head>
+        Taking EMAIL as input and displaying it on the handler page
+    </head>
+    <body>
+        <form method = "GET" action="2a.html" enctype="">
+        <fieldset>
+            <legend>EMAIL</legend>
+                <input type = "email" name = "email" value = ""><br>
+                <hr>
+                <input type = "submit" name = "" value = "Submit">
+        </fieldset>
+        </form>
+    </body>
+</html>
+<!DOCTYPE html>
+<html>
+    <head>
+        Taking EMAIL as input and displaying it on the current page
+    </head>
+    <body>
+        <form method = "GET" action="2b.php" enctype="">
+        <fieldset>
+            <legend>EMAIL</legend>
+                <input type = "email" name = "email" value = ""><br>
+                <hr>
+                <input type = "submit" name = "" value = "Submit">
+        </fieldset>
+        </form>
+    <?php
+    $email = $_GET['email'];
+    echo $email;
+    ?>
+    </body>
+</html>
+<!DOCTYPE html>
+<html>
+    <head>
+        Taking DOB as input and displaying it on the handler page
+    </head>
+    <body>
+        <form method = "GET" action="3a.html" enctype="">
+        <fieldset>
+            <legend>DATE OF BIRTH</legend>
+                dd: <input type="text" name="" value=""> /
+                mm: <input type="text" name="" value=""> /
+                yyyy: <input type="text" name="" value=""><br>
+                <hr>
+        <input type="submit" name="" value="Submit">
+        </fieldset>
+        </form>
+    </body>
+</html>
+<!DOCTYPE html>
+<html>
+    <head>
+        Taking DOB as input and displaying it on the handler page
+    </head>
+    <body>
+        <form method = "GET" action="3b.php" enctype="">
+        <fieldset>
+            <legend>DATE OF BIRTH</legend>
+                dd: <input type="text" name="" value=""> /
+                mm: <input type="text" name="" value=""> /
+                yyyy: <input type="text" name="" value=""><br>
+                <hr>
+        <input type="submit" name="" value="Submit">
+        </fieldset>
+        </form>
+        <?php
+            $date_of_birth = $_GET['date_of_birth'];
+            echo $date_of_birth;
+        ?>
+    </body>
+</html>
