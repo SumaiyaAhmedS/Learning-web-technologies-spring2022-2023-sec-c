@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        Selecting DEGREES as input and displaying it on the current page
+    </head>
+    <body>
+        <form method = "GET" action="5a.html" enctype="">
+        <fieldset>
+            <legend>GENDER</legend>
+                <input type="checkbox" name="degrees" value=""> SSC
+                <input type="checkbox" name="degrees" value=""> HSC
+                <input type="checkbox" name="degrees" value=""> BSc
+                <input type="checkbox" name="degrees" value=""> MSc
+                <br>
+                <hr>
+        <input type="submit" name="" value="Submit">
+        </fieldset>
+        </form>
+        <?php
+        $degrees = $_GET['degrees'];
+        echo $degrees;
+        ?>
+    </body>
+</html>
