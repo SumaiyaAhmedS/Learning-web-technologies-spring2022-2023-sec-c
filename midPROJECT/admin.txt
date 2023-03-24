@@ -1,7 +1,0 @@
-sumaiya|123|sumaiya@hope.com|2023-03-01|12345678910|female
-david|123|david@hope.com|2023-03-01|12345|male
-sumaiya|123|sumaiya@hope.com|2023-03-01|123456789|female
-sumaiya|123|sumaiya@hope.com|2023-03-01|123456789|female
-Fahim|789|fahim@hope.com|2023-03-01|male
-shuva|12345678|12345678|shuva@hope.com|2023-03-30|male
-alamin|12345678|12345678|alamin@aiub.edu|2023-03-21|male
