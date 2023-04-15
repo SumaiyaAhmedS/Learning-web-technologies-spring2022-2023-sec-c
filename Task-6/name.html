@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <script>
+            function validateForm(){
+                var name = document.getElementById("name").value;
+                if(name == ""){
+                    alert("Please enter your name");
+                } else if ((name.length)<2){
+                    alert("Must contain at least 2 words")
+                }
+                // const firstChar = str.charAt(0);
+                // if (firstChar < 'A' || (firstChar > 'Z' && firstChar < 'a') || firstChar > 'z') {
+                //     alert("Must start with a letter")
+                // }
+
+            }
+        </script>
+    </head>
+    <body>
+        <form name="myForm" onsubmit="return validateForm()" method="post">
+            Name: <input type="text" id="name" name="name"><br>
+            <hr>
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>

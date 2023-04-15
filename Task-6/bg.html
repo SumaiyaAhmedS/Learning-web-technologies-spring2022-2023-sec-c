@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <script>
+            function validateForm(){
+                var bg = document.getElementById("bg").value;
+                if(bg == ""){
+                    alert("Please select one");
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <form name="myForm" onsubmit="return validateForm()" method="post">
+            Blood Group: <select name="" id="bg">
+                <option value="A+" id="bg">A+</option><br>
+                <option value="B+" id="bg">B+</option><br>
+                <option value="O+" id="bg">O+</option><br>
+                <option value="A-" id="bg">A-</option><br>
+                <option value="B-" id="bg">B-</option><br>
+                <option value="AB+" id="bg">AB+</option><br>
+                <option value="AB-" id="bg">AB-</option><br>
+                <option value="O-" id="bg">O-</option><br>
+        </select>
+        <hr>
+        <input type="submit" name="" value="Submit">
+        </form>
+    </body>
+</html> 

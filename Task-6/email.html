@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <script>
+            function validateForm(){
+                var email = document.getElementById("email").value;
+                if(email == ""){
+                    alert("Please enter your email");
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <form name="myForm" onsubmit="return validateForm()" method="post">
+            Email: <input type="text" id="email" name="email"><br>
+            <hr>
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html> 
